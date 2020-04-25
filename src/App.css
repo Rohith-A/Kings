@@ -1,0 +1,163 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 8vh;
+  pointer-events: none;
+}
+.lables-green{
+  width: auto;
+  color: #f9fbf9;
+  font-size: xx-large;
+  font-weight: 500;
+  text-shadow: 1px 1px darkgrey;
+  background: #3cce3c;
+  padding: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-size: 25px;
+  border-radius: 35px;
+}
+.lables-amber{
+  width: auto;
+  color: white;
+  font-size: xx-large;
+    font-weight: 500;
+    text-shadow: 1px 1px darkgray;
+    background: #0fb1ef;
+  padding: 20px;
+  font-size: 25px;
+  padding-left: 25px;
+    padding-right: 25px;
+  border-radius: 35px;
+}
+#date{
+  font-size: 11px;
+    font-weight: 600;
+    color: gray;
+}
+.lables-red{
+  width: auto;
+  color: white;
+  font-size: xx-large;
+    font-weight: 500;
+    text-shadow: 1px 1px darkgray;
+    background: #ff6262;
+    padding: 20px;
+    font-size: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 35px;
+}
+footer {
+  margin-top: 40px;
+}
+.footer {
+  border-top: 1px solid;
+    width: 400px;
+    padding-left: 300px;
+    font-size: 10px;
+    font-family: unset;
+    color: gray;
+    margin-top: 50px;
+    padding-bottom: 15px;
+}
+.footer-desc {
+    font-size: 10px;
+    font-weight: 600;
+    font-family: unset;
+    color: gray;
+    position: absolute;
+    margin-top: 5px;
+    padding-bottom: 15px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.lables {
+  padding: 20px auto;
+  width: auto;
+}
+.details span {
+  text-align: center;
+  text-shadow: darkgray;
+  padding: 20px;
+}
+.logoSec {
+  display: inline-flex;
+  padding: 30px;
+  
+}
+body .p-dropdown {
+  width: 150px;
+}
+.p-chart {
+  overflow: hidden;
+  /* margin-right: 420px; */
+  /* left: 31% auto; */
+  /* float: right; */
+  padding: 25px 20px 20px 25px;
+  top: 1vh;
+  bottom: 20vh;
+}
+.chartSec {
+  top: 3vh !important;
+}
+.headerSec {
+  margin: 10px;
+}
+.details {
+  display: inline-flex;
+  text-align: center;
+  text-shadow: darkgray;
+}
+@media only screen and (max-width: 600px) {
+  .details {
+    display: inline-table;
+    overflow: hidden;
+  }
+  .p-chart {
+    width: 400px !important;
+    overflow: hidden;
+  }
+  body .p-dropdown {
+    width: 130px;
+  }
+}
+h3{
+  color: black;
+}
+.numbers {
+  font-family: cursive;
+    font-size: 21px;
+}
+.App-header {
+  display: table-cell;
+  background-color: #ffffff;
+  /* border: 1px  solid black; */
+  /* padding-bottom: 5px;
+  padding-top:5px; */
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
