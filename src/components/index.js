@@ -1,6 +1,7 @@
 import React from 'react';
 import KingsHome from './home';
 import KingsContact from './Contact'
+import KingsNav from './nav'
 // import Covidcountries from'./countries';
 // // import logo from './logo.svg';
 // // import './App.css';
@@ -17,6 +18,7 @@ class KingsIndex extends React.Component {
     render() {
         return(
             <div>
+                <KingsNav />
                 <KingsHome />
                 <KingsContact />
                 <KingsAbout />
