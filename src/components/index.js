@@ -19,9 +19,9 @@ class KingsIndex extends React.Component {
         return(
             <div>
                 <KingsNav />
-                <KingsHome />
+                {/* <KingsHome />
                 <KingsContact />
-                <KingsAbout />
+                <KingsAbout /> */}
             </div>
         )
      };

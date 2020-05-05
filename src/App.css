@@ -66,6 +66,15 @@ footer {
     margin-top: 50px;
     padding-bottom: 15px;
 }
+.p-card-header img {
+  width: 38% !important;
+}
+.p-card-footer {
+  padding-top: 1em;
+  background-color: #007bff;
+  color: #f9fbf9;
+}
+
 .footer-desc {
     font-size: 10px;
     font-weight: 600;
@@ -106,11 +115,25 @@ body .p-dropdown {
   top: 1vh;
   bottom: 20vh;
 }
+.p-card {
+  width: 51% !important;
+}
+.navbar {
+  overflow: hidden !important;
+  /* background-color: #333; */
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
+  color: black !important;
+}
 .chartSec {
   top: 3vh !important;
 }
 .headerSec {
   margin: 10px;
+}
+.nav-item {
+  color: black !important;
 }
 .details {
   display: inline-flex;
