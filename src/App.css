@@ -68,6 +68,7 @@ footer {
 }
 .p-card-header img {
   width: 38% !important;
+  padding-top: 10px;
 }
 .p-card-footer {
   padding-top: 1em;
@@ -89,6 +90,7 @@ footer {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 .lables {
   padding: 20px auto;
   width: auto;
@@ -136,19 +138,19 @@ body .p-dropdown {
   color: black !important;
 }
 .details {
-  display: inline-flex;
+  /* display: inline-flex; */
   text-align: center;
   text-shadow: darkgray;
 }
 @media only screen and (max-width: 600px) {
-  .details {
+  /* .details {
     display: inline-table;
     overflow: hidden;
   }
   .p-chart {
     width: 400px !important;
     overflow: hidden;
-  }
+  } */
   body .p-dropdown {
     width: 130px;
   }
@@ -179,6 +181,151 @@ h3{
   color: #61dafb;
 }
 
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  margin-top: 57px;
+  /* border: 1px solid; */
+  /* height: auto; */
+  /* transition: .5s ease; */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.iconcard {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  height: 25vh;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+.overlay:hover .image {
+  opacity: 0.3;
+}
+.iconsImg {
+  float: right !important;
+    margin-left: 69px;
+    padding-top: 26px;
+}
+.iconsImgbook {
+  float: right !important;
+    margin-left: 69px;
+    padding-top: 26px;
+    filter: brightness(0.5);
+}
+.overlay:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  /* background-color: #007bff; */
+  color: white;
+  /* font-size: 40px; */
+  border-radius: 15px;
+  padding: 16px 32px;
+}
+/* /////////////////////////////////// */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+.correspondent {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+}
+.p-card-footer {
+  padding-top: 1em;
+  margin-top: 10px;
+}
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  margin-top: 56px;
+  color: white;
+}
+
+.overlay {
+  width: 100% !important;
+  /* padding-right: 15px; */
+  /* padding-left: 15px; */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.overlay::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.desc {
+  color: #007bff;
+  border-top: 1px solid #007bff;
+  font-family: cursive;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
