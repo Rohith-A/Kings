@@ -13,7 +13,7 @@ class KingsAbout extends React.Component {
         return(
     <div className="details">
     <div className="about-section">
-  <h1>About Us Page</h1>
+  <h1>About Us</h1>
   <p>Established in 1981 with few numbers, Kings’ nurtured innumerable children who are spread around the world earning a good living.</p>
   <p>It’s determination to support children had kept it on-going till date. A good ambience with caring teaching faculty and staff are its strength.</p>
   <p>Dedication of our teaching faculty, support staff & vision of our beloved S.S.K Raja sir, had resulted to what is present Kings’.</p>
