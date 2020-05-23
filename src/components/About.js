@@ -28,8 +28,7 @@ class KingsAbout extends React.Component {
         <h2>Niranjan Kumar</h2>
         <p className="title">Vice-Principal</p>
         <p>A dedicated teacher who is addressing the teaching staff requirements apart from taking care of Children needs.</p>
-        <p>jane@example.com</p>
-        <p><button className="button">Contact</button></p>
+        <p><button className="contact-button">Contact</button></p>
       </div>
     </div>
   </div>
@@ -41,8 +40,7 @@ class KingsAbout extends React.Component {
         <h2>ILM</h2>
         <p className="title">Associated Partner</p>
         <p>We have associated with the esteemed ILM organization to nurture the soft skills of students.</p>
-        <p>mike@example.com</p>
-        <p><button className="button">Contact</button></p>
+        <p><button className="contact-button">Contact</button></p>
       </div>
     </div>
   </div>
@@ -54,8 +52,8 @@ class KingsAbout extends React.Component {
         <h2>ALUMNI</h2>
         <p className="title">Biggest Asset</p>
         <p>Our ex-students settled across the world are sharing the expertise with their younger ones.</p>
-        <p>kings201914@gmail.com</p>
-        <p><button className="button">Contact</button></p>
+        {/* <p>kings201914@gmail.com</p> */}
+        <p><button className="contact-button">Contact</button></p>
       </div>
     </div>
   </div>

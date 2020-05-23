@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 ReactDOM.render(
   <React.StrictMode>
+        <script src="https://maps.googleapis.com/maps/api/js" security='false'></script>
     <Router>
         <App />
     </Router>

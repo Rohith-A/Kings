@@ -58,13 +58,13 @@ footer {
 }
 .footer {
   border-top: 1px solid;
-    width: 400px;
-    padding-left: 300px;
-    font-size: 10px;
-    font-family: unset;
-    color: gray;
-    margin-top: 50px;
-    padding-bottom: 15px;
+  /* text-align: end; */
+  /* font-size: 14px; */
+  padding-top: 13px;
+  font-family: unset;
+  color: gray;
+  margin-top: 50px;
+  padding-bottom: 15px;
 }
 .p-card-header img {
   width: 38% !important;
@@ -207,7 +207,7 @@ h3{
   position: relative;
   display: -ms-flexbox;
   display: flex;
-  height: 25vh;
+  height: 32vh auto;
   -ms-flex-direction: column;
   flex-direction: column;
   min-width: 0;
@@ -253,7 +253,20 @@ h3{
   margin-bottom: 16px;
   padding: 0 8px;
 }
-
+.contact-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #007bff;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.contact-button :hover {
+  background-color: #72a2d6 !important;
+}
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
@@ -266,12 +279,23 @@ h3{
   margin-top: 10px;
 }
 .about-section {
+  padding: 53px;
+  text-align: center;
+  /* background-color: #474e5d; */
+  margin-top: 85px;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 30px;
+  color: #292626;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.44);
+}
+/* .about-section {
   padding: 50px;
   text-align: center;
   background-color: #474e5d;
   margin-top: 56px;
   color: white;
-}
+} */
 
 .overlay {
   width: 100% !important;
@@ -326,6 +350,16 @@ h3{
   border-top: 1px solid #007bff;
   font-family: cursive;
 }
+.contactdet {
+    padding: 32px;
+    width: 77%;
+    padding-top: 55px;
+  padding-bottom: 55px;
+    margin-left: 12%;
+    display: flex;
+    /* border: 1px solid; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -334,3 +368,6 @@ h3{
     transform: rotate(360deg);
   }
 }
+
+
+/* ///////////////////////////Contact/////////// */

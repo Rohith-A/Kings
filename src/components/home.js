@@ -7,6 +7,10 @@ const correspondent = require('../assets/images/Correspondent2.png');
 const estIcon = require('../assets/icons/established-icon-png.png');
 const awardIcon = require('../assets/icons/award.png');
 const bookIcon = require('../assets/icons/book.png');
+const homeImg1 = require('../images/DSC_0400.JPEG');
+const teachers = require('../images/DSC_0990.JPG');
+const fare = require('../images/DSC_0871.JPG');
+const skill = require('../images/DSC_0985.JPG');
 class KingsHome extends React.Component {
     constructor(props) {
         super(props)
@@ -70,7 +74,12 @@ class KingsHome extends React.Component {
                     <p className="title"><b>correspondent</b></p><b>SSK. Raja</b>
                 </Card>
                 <br />
-                <br />
+                <div style={{'box-shadow': '0 4px 8px 0 rgba(0, 0, 0, 0.2)', 'margin-top': '50px'}}>
+                <img src={skill} alt='img' width= '20%' style={{'margin-right': '50px'}}/>
+                <img src={fare} alt='img' width= '20%'/>
+                <img src={teachers} alt='img' width= '20%' style={{'margin': '50px'}}/>
+                    <img src={homeImg1} alt='img' width= '20%'/>
+                </div>
                 <p>
                     {/* Kings english medium school has history of 35years. One of the top schools in chittoor providing quality education. */}
                     </p>
