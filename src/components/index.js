@@ -1,12 +1,9 @@
 import React from 'react';
-import KingsHome from './home';
-import KingsContact from './Contact'
 import KingsNav from './nav'
 // import Covidcountries from'./countries';
 // // import logo from './logo.svg';
 // // import './App.css';
 // import {Dropdown} from 'primereact/dropdown';
-import KingsAbout from './About';
 class KingsIndex extends React.Component {
     constructor(props) {
         super(props)
@@ -28,9 +25,6 @@ class KingsIndex extends React.Component {
   <script src='https://maps.googleapis.com/maps/api/js?v=3' sensor='false'
     callback='initialize'></script>
                 <KingsNav />
-                {/* <KingsHome />
-                <KingsContact />
-                <KingsAbout /> */}
             </div>
         )
      };

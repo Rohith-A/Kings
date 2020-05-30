@@ -9,6 +9,7 @@ import {
 import KingsHome from './home';
 import KingsContact from './Contact'
 import KingsAbout from './About';
+import KingsGallery from './gallery';
 class KingsNav extends React.Component {
   constructor(props) {
     super(props)
@@ -52,6 +53,11 @@ class KingsNav extends React.Component {
                 Contact
                 </Link>
               </li>
+              <li className="nav-item" >
+              <Link to="/gallery" className="nav-link">
+                Gallery
+                </Link>
+              </li>
 
               {/* <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
@@ -72,6 +78,8 @@ class KingsNav extends React.Component {
             <Route path="/about"  component={KingsAbout}>
             </Route>
             <Route path="/contact"  component={KingsContact}>
+            </Route>
+            <Route path="/gallery"  component={KingsGallery}>
             </Route>
           </Switch>
         </div>

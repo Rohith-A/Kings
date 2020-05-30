@@ -58,6 +58,12 @@ class KingsAbout extends React.Component {
     </div>
   </div>
 </div>
+<footer class="page-footer font-small blue">
+
+  <div class="footer">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> &nbsp;KINGS em school</a>
+  </div>
+</footer>
     </div>)
      };
 }

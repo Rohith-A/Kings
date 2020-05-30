@@ -84,6 +84,12 @@ class KingsHome extends React.Component {
                     {/* Kings english medium school has history of 35years. One of the top schools in chittoor providing quality education. */}
                     </p>
                 {/* <h1>{this.state.name}</h1> */}
+                <footer class="page-footer font-small blue">
+
+  <div class="footer">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> &nbsp;KINGS em school</a>
+  </div>
+</footer>
             </div>
         )
     };
